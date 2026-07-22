@@ -1,14 +1,12 @@
-# Welcome to your Lovable project
+# Coraima Hair & Beauty
 
-This project was built with [Lovable](https://lovable.dev).
+Landing page del salón Coraima Hair & Beauty (Marbella).
 
-## Build with Lovable
+## Despliegue en Vercel
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+1. Importa este repositorio en [Vercel](https://vercel.com/new).
+2. Vercel detecta Vite/TanStack Start automáticamente (build: `npm run build`).
+3. Una vez desplegado, ve a **Project → Settings → Domains** y añade tu dominio personalizado, siguiendo las instrucciones de Vercel para apuntar los DNS (registro A/CNAME) desde tu proveedor de dominio.
 
 ## Development
 

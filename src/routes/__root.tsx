@@ -10,6 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import heroSalon from "../assets/hero-salon.jpg?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -86,8 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Salón de belleza premium en Marbella. Peluquería de autor, balayage, tratamientos capilares y maquillaje profesional en un beauty lounge exclusivo." },
       { property: "og:description", content: "Salón de belleza premium en Marbella. Peluquería de autor, balayage, tratamientos capilares y maquillaje profesional en un beauty lounge exclusivo." },
       { name: "twitter:description", content: "Salón de belleza premium en Marbella. Peluquería de autor, balayage, tratamientos capilares y maquillaje profesional en un beauty lounge exclusivo." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f33aa06c-bd89-4364-ac03-0aaf168c5764/id-preview-cb2f4f53--93767633-4f5f-4457-bffa-6d8001e8bfc6.lovable.app-1784720099196.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f33aa06c-bd89-4364-ac03-0aaf168c5764/id-preview-cb2f4f53--93767633-4f5f-4457-bffa-6d8001e8bfc6.lovable.app-1784720099196.png" },
+      { property: "og:image", content: heroSalon },
+      { name: "twitter:image", content: heroSalon },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
