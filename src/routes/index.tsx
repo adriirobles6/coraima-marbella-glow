@@ -15,11 +15,11 @@ export const Route = createFileRoute("/")({
         content:
           "Salón de belleza premium en Marbella. Peluquería de autor, balayage, tratamientos capilares y maquillaje profesional en un beauty lounge exclusivo.",
       },
-      { property: "og:title", content: "Coraima Hair & Beauty — Marbella" },
+      { property: "og:title", content: "Coraima Hair & Beauty — Salón boutique en Marbella" },
       {
         property: "og:description",
         content:
-          "Un santuario de belleza en la Milla de Oro. Alta peluquería, coloración y maquillaje profesional.",
+          "Salón de belleza premium en Marbella. Peluquería de autor, balayage, tratamientos capilares y maquillaje profesional en un beauty lounge exclusivo.",
       },
       { property: "og:url", content: "/" },
     ],
